@@ -1,5 +1,8 @@
 
 # This is a Golang + React example project.
+### It is intended to be as simple as possible
+
+### The backend data is in memory only but you could easily switch to using GORM with your favorite database.
 
 ## Requirements
 - Go 1.22 or higher
@@ -12,7 +15,7 @@
 
 ### Simply display our Puppies in a React Table which is editable and deletable.
 
-# server: Golang backend
+# server: Golang backend (running Go Gin)
 
 ### The server is a simple REST API that serves the Puppies data.
 
