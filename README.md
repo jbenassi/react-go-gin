@@ -1,3 +1,4 @@
+
 # This is a Golang + React example project.
 
 ## Requirements
@@ -7,10 +8,22 @@
     - React 19.0.0 or higher
 
 # The project is divided into two parts:
-# - client: React frontend
+# client: React frontend
 
 ### Simply display our Puppies in a React Table which is editable and deletable.
 
-# - server: Golang backend
+# server: Golang backend
 
 ### The server is a simple REST API that serves the Puppies data.
+
+## Instructions
+## For Server
+
+    cd server
+    go run main.go .
+
+## For Client
+
+    cd client
+    npm start
+  *This should download required packages and start the client*
